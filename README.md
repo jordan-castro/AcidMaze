@@ -16,3 +16,6 @@ Helper functions used throught the project.
 
 ### Windows:
 `run`
+
+### Maze location
+The maze will override the maze.png file and will be saved as a .txt file in `mazes/`.
