@@ -19,3 +19,5 @@ Helper functions used throught the project.
 
 ### Maze location
 The maze will override the maze.png file and will be saved as a .txt file in `mazes/`.
+
+Funny enough AcidMaze ended up being the inspiration behind [https://github.com/jordan-castro/Pixel_AI_Dash]Pixel AI Dash
