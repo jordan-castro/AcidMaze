@@ -1,4 +1,5 @@
-# AcidMaze ![maze](https://github.com/jordan-castro/AcidMaze/assets/86361283/8f3da7c7-d90d-4c49-8d7d-c6e11fe1db33)
+# AcidMaze 
+![maze](https://github.com/jordan-castro/AcidMaze/assets/86361283/8f3da7c7-d90d-4c49-8d7d-c6e11fe1db33)
 
 Maze making algorithms written in PHP.
 
