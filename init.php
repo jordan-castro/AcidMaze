@@ -4,6 +4,23 @@ include_once __DIR__ . "/algos/index.php";
 include_once __DIR__ . "/maze/index.php";
 include_once __DIR__ . "/utils/index.php";
 
+
+$algorithms = [
+    AlgorithmType::DungeonRooms,
+    AlgorithmType::AldousBroder,
+    AlgorithmType::Prim,
+    // AlgorithmType::Recursion,
+    AlgorithmType::Backtracing
+];
+
+/**
+ * Get a random maze type to generate.
+ */
+function chooseRandomMazeType() {
+    global $algorithms;
+    return $algorithms[array_rand($algorithms)];
+}
+
 /**
  * Generate a Maze
  */

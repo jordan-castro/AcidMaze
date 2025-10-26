@@ -2,4 +2,7 @@
 
 include_once __DIR__ . "/init.php";
 
-generateMaze(10, "debug.png", AlgorithmType::DungeonRooms, true);
+$type = chooseRandomMazeType();
+echo "Type chosen = " . typeName($type);
+
+generateMaze(20, "debug.png", $type, true);
